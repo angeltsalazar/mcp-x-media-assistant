@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "x-media-downloader": {
+      "command": "/Volumes/SSDWD2T/projects/x_backup/.venv/bin/python3",
+      "args": ["/Volumes/SSDWD2T/projects/x_backup/mcp_server.py"],
+      "cwd": "/Volumes/SSDWD2T/projects/x_backup",
+      "env": {}
+    }
+  }
+}

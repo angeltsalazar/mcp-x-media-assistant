@@ -1,0 +1,22 @@
+{
+  "last_updated": "2025-06-12T15:43:27.780996",
+  "processed_posts": {
+    "1001": {
+      "processed_at": "2025-06-12T15:43:27.780983",
+      "image_url": null
+    },
+    "1002": {
+      "processed_at": "2025-06-12T15:43:27.780983",
+      "image_url": null
+    },
+    "1003": {
+      "processed_at": "2025-06-12T15:43:27.780983",
+      "image_url": null
+    },
+    "1004": {
+      "processed_at": "2025-06-12T15:43:27.780983",
+      "image_url": null
+    }
+  },
+  "status_to_image_mapping": {}
+}

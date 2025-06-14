@@ -1,0 +1,17 @@
+{
+  "servers": {
+    "x-media-downloader-local-backup": {
+      "command": "/Volumes/SSDWD2T/projects/x_backup/.venv/bin/python3",
+      "args": ["/Volumes/SSDWD2T/projects/x_backup/mcp_server_working.py"],
+      "cwd": "/Volumes/SSDWD2T/projects/x_backup",
+      "env": {},
+      "allowedTools": [
+        "test_tool",
+        "manage_users",
+        "download_images", 
+        "system_status"
+      ],
+      "description": "Servidor MCP para X Media Downloader - Gestiona descarga de imágenes y videos de X (Twitter)"
+    }
+  }
+}

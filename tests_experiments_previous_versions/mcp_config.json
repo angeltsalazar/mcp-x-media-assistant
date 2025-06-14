@@ -1,0 +1,35 @@
+{
+  "mcpServers": {
+    "x-media-downloader": {
+      "command": "python3",
+      "args": ["mcp_server.py"],
+      "cwd": "/Volumes/SSDWD2T/projects/x_backup",
+      "env": {},
+      "description": "Servidor MCP para X Media Downloader - Gestiona descarga de imágenes y videos de X (Twitter)",
+      "capabilities": {
+        "tools": [
+          {
+            "name": "manage_users",
+            "description": "Gestiona usuarios del sistema: listar, añadir, editar, eliminar"
+          },
+          {
+            "name": "download_images", 
+            "description": "Descarga imágenes y extrae información de posts de usuarios de X"
+          },
+          {
+            "name": "select_videos",
+            "description": "Selecciona y descarga videos desde caché generado por download_images"
+          },
+          {
+            "name": "system_status",
+            "description": "Obtiene el estado del sistema: usuarios, archivos de caché, dependencias"
+          },
+          {
+            "name": "system_config",
+            "description": "Gestiona la configuración del sistema"
+          }
+        ]
+      }
+    }
+  }
+}
